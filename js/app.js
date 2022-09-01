@@ -2,7 +2,7 @@
 const app = new Vue({
     el: '#app',
     data:{
-        mailArray: [],
+        mailArray: [],     
     },
     methods:{
         fetchMail(){
@@ -18,3 +18,4 @@ const app = new Vue({
         this.fetchMail()
     }
 })
+
